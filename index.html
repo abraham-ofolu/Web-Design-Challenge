@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Latitude Vs. X Dashboard</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    
+    <!--Navigation Bar Top Left-->
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Bar Top Right-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <!--Dropdown Menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+              <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="box">
+            <h3>Summary: Latitude VS. X</h3>
+            <hr>
+            <img src="assets/images/Fig1.png" class="figure rounded float-left">
+            <p>
+              The main purpose of my project is to analyse the different reactions to weather
+              changes as you get closer to the equator. To accomplish this
+              <br>
+              We have used Matplotlib to plot various of the weather and the Latitude, 
+              factors we have considered include: Cloudiness, Humidity, Temperature, and wind. 
+            </p>
+          </div>
+        </div>
+
+        <!-- Start of Visualizations imageNav Area -->
+        <div class="col-lg-6 col-md-12">
+          <div class="box">
+            <h5>Visualizations</h5>
+            <hr>
+            <div class="container">
+              < class="row">
+                <div class="col-6">
+                  <a href="visualizations/temp.html">
+                    <img class="img-box" src="assets/images/Fig1.png" alt="Latitude Vs. Max Temperature", title="Latitude Vs. Max Temperature" class="imageNav-photo">
+                  </a>
+                </div>
+              <div class="column">
+              </div>
+                <div class="col-6">
+                  <a href="visualizations/humidity.html">
+                    <img class="img-box" src="assets/images/Fig2.png" alt="Latitude Vs. Humidity", title="Latitude Vs. Humidity" class="imageNav-photo">
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+              </div>
+                <div class="column">
+                  <a href="visualizations/cloudiness.html">
+                    <img class="img-box" src="assets/images/Fig3.png" alt="Latitude Vs. Cloudiness", title="Latitude Vs. Cloudiness", class="imageNav-photo">
+                  </a>
+                </div>
+              </div>
+              <div class="colunn">
+                <a href="visualizations/wind.html">
+                  <img class="img-box" src="assets/images/Fig4.png" alt="Latitude Vs. Wind Speed", title="Latitude Vs. Wind Speed", class="imageNav-photo">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <!-- End of the Visualizations imageNav Area -->
+    <!-- End of container -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

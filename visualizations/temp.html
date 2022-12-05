@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <!-- Start of navbar -->
+    <!-- Add a title here -->
+    <title> Latitude vs X :: Plots - Max Temperature</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    
+    <!--Navigation Bar Top Left-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="../index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Bar Top Right-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+
+          <!--Dropdown Menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="cloudliness.html">Cloudiness</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="wind.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+          <div class="box">
+            <h3>Max Temperature</h3>
+            <hr>
+            <img src="../assets/images/Fig1.png">
+            <p>
+              This plot gives a clear data that the Temperatures for the cities closer to the equator are higher, Janauary seems to be the summer in the Southern Hemisphere.
+            </p>
+          </div>
+        </div>
+
+        <!-- Start of Visualizations imageNav Area -->
+        <div class="col-lg-5 col-md-12">
+          <div class="box">
+            <h5>Visualizations</h5>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <a href="temp.html">
+                    <img class="img-box" src="../assets/images/Fig1.png">
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a href="humidity.html">
+                    <img class="img-box" src="../assets/images/Fig2.png">
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <a href="cloudiness.html">
+                    <img class="img-box" src="../assets/images/Fig3.png">
+                  </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <a href="wind.html">
+                  <img class="img-box" src="../assets/images/Fig4.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <!-- End of the Visualizations imageNav Area -->
+    <!-- End of container -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
